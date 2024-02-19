@@ -8,7 +8,7 @@ require (
 	github.com/sensu/sensu-go/api/core/v2 v2.3.0
 	github.com/sensu/sensu-go/types v0.3.0
 	github.com/shirou/gopsutil v3.20.11+incompatible
-	github.com/stretchr/testify v1.6.0
+	github.com/stretchr/testify v1.8.4
 )
 
 require (
@@ -53,5 +53,5 @@ require (
 	gopkg.in/ini.v1 v1.51.0 // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
-	gopkg.in/yaml.v3 v3.0.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
