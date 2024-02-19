@@ -228,9 +228,6 @@ func checkArgs(event *types.Event) (int, error) {
 	if plugin.Warning >= plugin.Critical {
 		return sensu.CheckStateCritical, fmt.Errorf("--warning value can not be greater than or equal to --critical value")
 	}
-	if plugin.InodesWarning >= plugin.InodesCritical {
-		return sensu.CheckStateCritical, fmt.Errorf("--inodeswarning value can not be greater than or equal to --inodescritical value")
-	}
 	for _, tagString := range plugin.ExtraTags {
 		fmt.Println(tagString)
 		parts := strings.Split(tagString, `=`)
