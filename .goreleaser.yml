@@ -10,6 +10,7 @@ builds:
     goos:
       - darwin
       - linux
+      - solaris
       - windows
     goarch:
       - amd64
@@ -28,6 +29,7 @@ builds:
       - linux_arm_6
       - linux_arm_7
       - linux_arm64
+      - solaris_amd64
       - windows_386
       - windows_amd64
 
