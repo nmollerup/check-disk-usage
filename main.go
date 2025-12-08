@@ -230,7 +230,6 @@ func checkArgs(event *types.Event) (int, error) {
 		return sensu.CheckStateCritical, fmt.Errorf("--warning value can not be greater than or equal to --critical value")
 	}
 	for _, tagString := range plugin.ExtraTags {
-		fmt.Println(tagString)
 		parts := strings.Split(tagString, `=`)
 		if len(parts) == 2 {
 			extraTags[parts[0]] = parts[1]
