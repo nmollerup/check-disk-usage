@@ -1,6 +1,6 @@
-[![Sensu Bonsai Asset](https://img.shields.io/badge/Bonsai-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/sensu/check-disk-usage)
-![Go Test](https://github.com/sensu/check-disk-usage/workflows/Go%20Test/badge.svg)
-![goreleaser](https://github.com/sensu/check-disk-usage/workflows/goreleaser/badge.svg)
+[![Sensu Bonsai Asset](https://img.shields.io/badge/Bonsai-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/nmollerup/check-disk-usage)
+[![Go Test](https://github.com/nmollerup/check-disk-usage/actions/workflows/test.yml/badge.svg)](https://github.com/nmollerup/check-disk-usage/actions/workflows/test.yml)
+[![goreleaser](https://github.com/nmollerup/check-disk-usage/actions/workflows/release.yml/badge.svg)](https://github.com/nmollerup/check-disk-usage/actions/workflows/release.yml)
 
 # Sensu disk usage check
 
